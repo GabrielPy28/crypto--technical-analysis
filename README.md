@@ -3,14 +3,14 @@ This Python code is designed to retrieve technical analysis data for three popul
 ![Crypto_Analysis](https://th.bing.com/th/id/OIG4.wwkCWMFRm7d83XdsGI2H?w=400&h=400&c=6&r=0&o=5&pid=ImgGn)
 
 ## Functions
-• `get_crypto_data()`: Gets the technical analysis data for all three cryptocurrencies from the Technical Analysis API.
-• `send_to_kinesis(crypto_data)`: Sends the retrieved data to the Amazon Kinesis data stream.
-• `save_to_s3(crypto_data)`: Saves the retrieved data to an Amazon S3 bucket.
+- `get_crypto_data()`: Gets the technical analysis data for all three cryptocurrencies from the Technical Analysis API.
+- `send_to_kinesis(crypto_data)`: Sends the retrieved data to the Amazon Kinesis data stream.
+- `save_to_s3(crypto_data)`: Saves the retrieved data to an Amazon S3 bucket.
 
 ## Dependencies
-• [requests](https://requests.readthedocs.io/): A Python library for making HTTP requests.
-• [json](https://docs.python.org/3/library/json.html): A Python library for working with JSON data.
-• [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html): The AWS SDK for Python.
+- [requests](https://requests.readthedocs.io/): A Python library for making HTTP requests.
+- [json](https://docs.python.org/3/library/json.html): A Python library for working with JSON data.
+- [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html): The AWS SDK for Python.
 
 to install all dependencies, run: `> pip install -r requirements.txt`.
 
